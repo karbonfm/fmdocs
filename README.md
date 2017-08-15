@@ -67,3 +67,11 @@ Examples are interesting. We needed a way to conveniently show the examples for 
 
 
 [![video example](video.png)](http://youtu.be/b4RIR_P1C3c "example")
+
+## Custom Function Example
+
+comming soon...
+
+## Feedback
+
+Please post questions or comments to the issue tracker
