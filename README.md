@@ -7,7 +7,7 @@ FileMaker scripts and custom functions can get complex.  Now that we have JSON t
 This is a living document. It will change as we get further in,
 
 ## Considerations
-We did want to reinvent the wheel. We wanted someth that might lend itself to documentation generation. And we wanted it to be as easy as possible to read and to understand.
+We didn't want to reinvent the wheel. We wanted someth that might lend itself to documentation generation. And we wanted it to be as easy as possible to read and to understand.
 
 ## Sources
 We draw on [jsdoc](http://usejsdoc.org/) and [apidocs](http://apidocjs.com/) as primary material. We landed closer to jsdocs, but addopted some of the ideas from apidcos having to do with example inputs and results. Somebody who is familiar with either of those two style should have no problem understanding fmdocs.
