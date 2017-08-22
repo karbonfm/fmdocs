@@ -70,7 +70,16 @@ Examples are interesting. We needed a way to conveniently show the examples for 
 
 ## Custom Function Example
 
-comming soon...
+comming soon... but for now
+
+Just replace the # with * like so
+
+```
+/**
+ *
+ *
+ */
+ ```
 
 ## Feedback
 
