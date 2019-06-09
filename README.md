@@ -1,16 +1,16 @@
 # fmdocs
 
-**A guidline for documenting FileMaker Scripts and Functions**
+**A guideline for documenting FileMaker Scripts and Functions**
 
-FileMaker scripts and custom functions can get complex.  Now that we have JSON the data that gets passed in and out can get very complex and therefor focumenting what goes in and out of scripts can get tricky. We needed a way to clealy and consistantly document our FileMaker code as part of Karbon project.  This repo contains our current itteration on that thinking.
+FileMaker scripts and custom functions can get complex.  Now that we have JSON the data that gets passed in and out can get very complex and therefor focumenting what goes in and out of scripts can get tricky. We needed a way to clearly and consistantly document our FileMaker code as part of Karbon project.  This repo contains our current iteration on that thinking.
 
-This is a living document. It will change as we get further in,
+This is a living document. It will change as we get further in.
 
 ## Considerations
-We didn't want to reinvent the wheel. We wanted someth that might lend itself to documentation generation. And we wanted it to be as easy as possible to read and to understand.
+We didn't want to reinvent the wheel. We wanted something that might lend itself to documentation generation. And we wanted it to be as easy as possible to read and to understand.
 
 ## Sources
-We draw on [jsdoc](http://usejsdoc.org/) and [apidocs](http://apidocjs.com/) as primary material. We landed closer to jsdocs, but addopted some of the ideas from apidcos having to do with example inputs and results. Somebody who is familiar with either of those two style should have no problem understanding fmdocs.
+We draw on [jsdoc](http://usejsdoc.org/) and [apidocs](http://apidocjs.com/) as primary material. We landed closer to jsdocs, but adopted some of the ideas from apidcos having to do with example inputs and results. Somebody who is familiar with either of those two style should have no problem understanding fmdocs.
 
 
 ## Example
@@ -58,7 +58,7 @@ The next value after the tag is the type. It goes inside a "{}"  The next word a
 
 ![clip1](clip1.png)
 
-`@returnSucces` and `@returnError` follow the same pattern as @param. It's best to describe both error case and success case, if you have them. There are other tags such `@public` which are complete with out other attributes on the line. We use `{...}` to denote that there may be other properties on the object
+`@returnSucces` and `@returnError` follow the same pattern as @param. It's best to describe both error case and success case, if you have them. There are other tags such `@public` which are complete without other attributes on the line. We use `{...}` to denote that there may be other properties on the object.
 
 ### Examples
 Examples are interesting. We needed a way to conveniently show the examples for parameters and results.  Writing complex JSON in FM Comments doesn't work very well. As an alternative we are using a commented out Insert Text Script step. These are perfect for writing long JSON strings as they will accept any text without concern for escaping.  The `@tag` is set as the target variable. When you click on them to expand them you get the full formatted version.
